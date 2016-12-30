@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/grid_color_selector"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rowImageFrame">
+
+
+        <ImageView
+            android:id="@+id/imageItem"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <ProgressBar
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:id="@+id/galleRrowImageProgressBar"
+            android:indeterminate="true"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="12sp" />
+
+</LinearLayout>

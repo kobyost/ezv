@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "935991074774",
+    "firebase_url": "https://project-9166290553809466542.firebaseio.com",
+    "project_id": "project-9166290553809466542",
+    "storage_bucket": "project-9166290553809466542.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935991074774:android:f6e28ee600649386",
+        "android_client_info": {
+          "package_name": "com.koby.EazyVacation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935991074774-63302drm8aob79jifeturi08iq0u9t40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpotNmt-2VrZvwWuH87RvLGWP04L7qWOg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

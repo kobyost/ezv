@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.second_screen"/>
+      <point      
+        x = "500"      
+        y = "2860"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.koby.EazyVacation.activities.second_screen"/>
+      <point      
+        x = "1768"      
+        y = "2860"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.Maintnance"/>
+      <point      
+        x = "4654"      
+        y = "8604"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.Information"/>
+      <point      
+        x = "4023"      
+        y = "7071"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.ImageGallery"/>
+      <point      
+        x = "500"      
+        y = "4240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.reception"/>
+      <point      
+        x = "2528"      
+        y = "8647"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.MealsList"/>
+      <point      
+        x = "500"      
+        y = "5620"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.koby.EazyVacation.activities.MealsList"/>
+      <point      
+        x = "1768"      
+        y = "5620"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.ResetPassword"/>
+      <point      
+        x = "489"      
+        y = "8595"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.ImageDetails"/>
+      <point      
+        x = "1768"      
+        y = "4240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.call_Taxi_Activity"/>
+      <point      
+        x = "3590"      
+        y = "6618"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.MainActivity"/>
+      <point      
+        x = "452"      
+        y = "7018"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.koby.EazyVacation.activities.MainActivity"/>
+      <point      
+        x = "1715"      
+        y = "7011"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.Wifi_activity"/>
+      <point      
+        x = "1669"      
+        y = "8578"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.MapsActivity"/>
+      <point      
+        x = "300"      
+        y = "8621"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.TakePictureActivity"/>
+      <point      
+        x = "4076"      
+        y = "6664"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.lateCheckOut_Activity"/>
+      <point      
+        x = "3775"      
+        y = "6439"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.Under_construction"/>
+      <point      
+        x = "257"      
+        y = "8614"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.OrderDetails"/>
+      <point      
+        x = "304"      
+        y = "8671"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.first_screen"/>
+      <point      
+        x = "4062"      
+        y = "6885"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.RoomService"/>
+      <point      
+        x = "3854"      
+        y = "6800"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.Reviews_activity"/>
+      <point      
+        x = "2942"      
+        y = "7133"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.Hotel_Details"/>
+      <point      
+        x = "1768"      
+        y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.wakeUPCall_activity"/>
+      <point      
+        x = "3877"      
+        y = "6806"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.CleanRoom_Activity"/>
+      <point      
+        x = "3434"      
+        y = "8548"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.Login"/>
+      <point      
+        x = "-168"      
+        y = "8902"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.HotelList"/>
+      <point      
+        x = "500"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.koby.EazyVacation.activities.HotelList"/>
+      <point      
+        x = "1768"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.koby.EazyVacation.activities.VacationActivity"/>
+      <point      
+        x = "3048"      
+        y = "6960"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

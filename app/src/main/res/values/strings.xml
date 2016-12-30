@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Easy Vacation</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Log_Out">Log out</string>
+    <string name="My_Vacation">MY Vacation</string>
+    <string name="title_activity_main2">Main menu</string>
+    <string name="title_activity_main22">Main22Activity</string>
+
+    <string name="title_activity_fullscreen">Easy Vacation</string>
+    <string name="login_button">Log In</string>
+    <string name="room_service_button">room_service</string>
+    <string name="front_desk_button">front_desk</string>
+    <string name="spa_button">spa</string>
+    <string name="maintenance_button">maintenance</string>
+    <string name="attractions_button">attractions</string>
+    <string name="submit_button">submit_button</string>
+    <string name="button_phone">button_phone</string>
+    <string name="dummy_content"></string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <string name="title_activity_main23">Main23Activity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_reception">reception</string>
+    <string name="title_activity_maintenance">Maintnance</string>
+    <string-array name="urgency">
+        <item>None</item>
+        <item>Urgent</item>
+        <item>Within Hour</item>
+        <item>Within Day</item>
+    </string-array>
+
+    <string name="title_activity_login2">Easy Vacation</string>
+    <string name="title_activity_hotel_list">HotelList</string>
+    <string name="title_activity_hotel__details">Hotel_Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test_activitry">testActivitry</string>
+    <string name="title_activity_first_screen">first_screen</string>
+    <string name="title_activity_second_screen">second_screen</string>
+    <string name="title_activity_wifi_activity">Wifi_activity</string>
+    <string name="title_activity_wake_upcall_activity">wakeUPCall_activity</string>
+    <string name="title_activity_call__taxi_">call_Taxi_Activity</string>
+    <string name="title_activity_late_check_out_">lateCheckOut_Activity</string>
+    <string name="title_activity_clean_room_">CleanRoom_Activity</string>
+    <string name="title_activity_information">Information</string>
+    <string name="title_activity_under_construction">Under_construction</string>
+    <string name="title_activity_reviews_activity">Reviews_activity</string>
+    <string name="take_picture_Activity">Take picture</string>
+    <string name="title_activity_image_gallery">ImageGallery</string>
+    <string name="title_activity_image_details">ImageDetails</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_reset_password">ResetPassword</string>
+    <string name="title_activity_order_details">Order Details</string>
+
+
+</resources>

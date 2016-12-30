@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".main">
+
+
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/hotel_logo"
+                android:layout_gravity="center"
+                android:src="@drawable/dan_logo"
+                />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make It Easy"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="match_parent">
+           <Button
+               android:id="@+id/room_Service"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:background="@drawable/room_service"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:text=""/>
+           <Button
+               android:id="@+id/front_desk"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="10dp"
+               android:layout_weight="1"
+               android:background="@drawable/frontdesk"
+               />
+
+           <!--<Button-->
+               <!--android:id="@+id/spa"-->
+               <!--android:layout_width="match_parent"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--android:background="@drawable/spa"-->
+               <!--android:layout_weight="1"-->
+               <!--android:layout_marginBottom="10dp"-->
+               <!--/>-->
+           <!--<Button-->
+               <!--android:id="@+id/attractions"-->
+               <!--android:layout_width="match_parent"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--android:layout_weight="1"-->
+               <!--android:background="@drawable/attrac2"-->
+               <!--/>-->
+           <Button
+               android:id="@+id/information"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/information3"
+               android:layout_weight="1"/>
+           <Button
+               android:id="@+id/review_button"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/reviews_button"
+               android:layout_weight="1"/>
+           <Button
+               android:id="@+id/gallery_button"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/gallery"
+               android:layout_weight="1"/>
+
+
+
+
+
+
+
+
+       </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

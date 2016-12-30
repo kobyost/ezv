@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.koby.EazyVacation">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".activities.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_new"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.koby.EazyVacation.activities.TakePictureActivity"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@drawable/file_paths"></meta-data>
+        </provider>
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".activities.first_screen" />
+        <activity
+            android:name=".activities.reception"
+            android:label="@string/title_activity_reception"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.Maintnance"
+            android:label="@string/title_activity_maintenance"
+            android:parentActivityName=".activities.reception"
+            android:windowSoftInputMode="stateHidden|adjustResize|adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.reception" />
+        </activity>
+        <activity
+            android:name=".activities.HotelList"
+            android:label="@string/title_activity_hotel_list" />
+        <activity
+            android:name=".activities.Hotel_Details"
+            android:label="@string/title_activity_hotel__details"
+            android:parentActivityName=".activities.HotelList">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.HotelList" />
+        </activity>
+        <activity
+            android:name=".activities.VacationActivity"
+            android:label="My vacation" />
+        <activity
+            android:name=".activities.first_screen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.second_screen"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.Wifi_activity"
+            android:label="@string/title_activity_wifi_activity"
+            android:parentActivityName=".activities.reception">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.reception" />
+        </activity>
+        <activity
+            android:name=".activities.wakeUPCall_activity"
+            android:label="@string/title_activity_wake_upcall_activity"
+            android:parentActivityName=".activities.reception">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.reception" />
+        </activity>
+        <activity
+            android:name=".activities.call_Taxi_Activity"
+            android:label="@string/title_activity_call__taxi_"
+            android:parentActivityName=".activities.reception">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.reception" />
+        </activity>
+        <activity
+            android:name=".activities.lateCheckOut_Activity"
+            android:label="@string/title_activity_late_check_out_"
+            android:parentActivityName=".activities.reception">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.reception" />
+        </activity>
+        <activity
+            android:name=".activities.CleanRoom_Activity"
+            android:label="@string/title_activity_clean_room_"
+            android:parentActivityName=".activities.reception">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.reception" />
+        </activity>
+        <activity
+            android:name=".activities.Information"
+            android:label="@string/title_activity_information"
+            android:parentActivityName=".activities.reception">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.reception" />
+        </activity>
+        <activity
+            android:name=".activities.Under_construction"
+            android:label="@string/title_activity_under_construction"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.Reviews_activity"
+            android:label="@string/title_activity_reviews_activity" />
+        <activity
+            android:name=".activities.TakePictureActivity"
+            android:label="@string/take_picture_Activity"
+            />
+        <activity
+            android:name=".activities.ImageGallery"
+            android:label="@string/title_activity_image_gallery" />
+        <activity
+            android:name=".activities.ImageDetails"
+            android:label="@string/title_activity_image_details"
+            android:parentActivityName=".activities.ImageGallery">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.ImageGallery" />
+        </activity>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".activities.ResetPassword"
+            android:label="@string/title_activity_reset_password"
+            android:parentActivityName=".activities.first_screen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.first_screen" />
+        </activity>
+        <activity
+            android:name=".activities.RoomService"
+            android:label="Room Service"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.MealsList"
+            android:label="Order Menu"
+            android:parentActivityName=".activities.RoomService">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.RoomService" />
+        </activity>
+        <activity
+            android:name=".activities.OrderDetails"
+            android:label="@string/title_activity_order_details"
+            android:parentActivityName=".activities.MealsList">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MealsList" />
+        </activity>
+    </application>
+
+</manifest>

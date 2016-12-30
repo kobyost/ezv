@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".main">
+
+    <item android:id="@+id/my_vacation" android:title="@string/My_Vacation"
+        android:orderInCategory="100" android:showAsAction="ifRoom"
+        android:icon="@drawable/logo_new"
+        />
+    <item android:id="@+id/log_out" android:title="@string/Log_Out"
+        android:orderInCategory="100" android:showAsAction="ifRoom"
+        android:icon="@drawable/log_out_icon"
+        />
+</menu>
